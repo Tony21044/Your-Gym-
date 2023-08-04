@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> The Fitness Club </title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utility.css" />
+    <link rel="stylesheet" href="css/slideshow.css" />
+    <link rel="stylesheet" href="css/pricing-section.css" />
+    <link rel="stylesheet" href="css/section-3.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.css"
+        integrity="sha256-NAxhqDvtY0l4xn+YVa6WjAcmd94NNfttjNsDmNatFVc=" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="container mx-auto">
+        <header>
+            <nav class="nav-bar flex justify-between mx-auto font-bold font-Montserrat">
+                <div class="nav-div flex align-items">
+                    <img src="images/logo.png" alt="brand-logo" />
+                    <span>The Fitness Club</span>
+                </div>
+                <ul class="nav-ul flex align-items">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Us</li>
+                    <li>
+                        <button class="join-btn font-Montserrat font-bold">
+                            Join Now
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+            <hr />
+        </header>
+        <main>
+            <section class="section-1">
+                <div class="flex align-items">
+                    <div class="topLeft flex flex-col justify-content p-1 font-Montserrat">
+                        <h1 class="m-1">Best Fitness Gym in the Town</h1>
+                        <p>
+                            “To keep the body in good health is a duty. Otherwise <br> we shall not be able to keep our
+                            mind strong and clear.”
+                        </p>
+                    </div>
+                    <div class="topRight font-bold font-Montserrat">
+                        <div class="slideshow-container">
+                            <div class="mySlides fade">
+                                <div class="numbertext">1 / 5</div>
+                                <img src="images/img-1.jpg" style="width: 100%" />
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">2 / 5</div>
+                                <img src="images/img-2.jpg" style="width: 100%" />
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">3 / 5</div>
+                                <img src="images/img-3.jpg" style="width: 100%" />
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">4 / 5</div>
+                                <img src="images/img-4.jpg" style="width: 100%" />
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">5 / 5</div>
+                                <img src="images/img-5.jpg" style="width: 100%" />
+                            </div>
+
+                            <a class="prev" onclick="plusSlides(-1)">❮</a>
+                            <a class="next" onclick="plusSlides(1)">❯</a>
+
+                            <div class="dot-div">
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                                <span class="dot" onclick="currentSlide(4)"></span>
+                                <span class="dot" onclick="currentSlide(5)"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr />
+
+            <section class="section-2 flex font-Montserrat" id="pricing">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="title-box">
+                                <h1 class="title-heading mt-4">Best Pricing Package</h1>
+                                <p class="text-muted f-17 mt-3">
+                                    You will never stop wanting for more 😉.
+                                </p>
+                                <img src="images/home-border.png" height="15" class="mt-3" alt="" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5 pt-4 flex">
+                        <div class="col-lg-4">
+                            <div class="pricing-box mt-4">
+                                <i class="mdi mdi-account h1"></i>
+                                <h4 class="f-20">Starter</h4>
+
+                                <div class="mt-4 pt-2">
+                                    <p class="mb-2 f-18">Features</p>
+
+                                    <p class="mb-2">
+                                        <i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2">
+                                        </i><b>24/7</b> gym accessibility
+                                    </p>
+                                    <p class="mb-2">
+                                        <i class="mdi mdi-close-circle text-danger f-18 mr-2"></i><b> Global
+                                        </b>
+                                        membership
+                                    </p>
+                                    <p class="mb-2">
+                                        <i class="mdi mdi-close-circle text-danger f-18 mr-2"></i><b>
+                                            24x7</b>
+                                        Support
+                                    </p>
+                                    <p class="mb-2">
+                                        <i class="mdi mdi-close-circle text-danger f-18 mr-2"></i><b>
+                                            User-friendly
+                                        </b>
+                                        mobile app available for download
+                                    </p>
+                                    <p class="mb-2">
+                                        <i class="mdi mdi-close-circle text-danger f-18 mr-2"></i><b>
+                                            Family
+                                        </b>
+                                        membership
+                                    </p>
+                                   
+                                </div>
+
+                                <div class="pricing-plan mt-4 pt-2">
+                                    <h4 class="text-muted">
+                                        <s> $9.99</s>
+                                        <span class="plan pl-3 text-dark">$8.99 </span>
+                                    </h4>
+                                    <p class="text-muted mb-0">Per Month</p>
+                                </div>
+
+                                <div class="mt-4 pt-3">
+                                    <a href="" class="btn btn-primary btn-rounded">Purchase Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="pricing-box mt-4">
+                                <div class="pricing-badge">
+                                    <span class="badge">Featured</span>
+                                </div>
+
+                                <i class="mdi mdi-account-multiple h1 text-primary"></i>
+                                <h4 class="f-20 text-primary">Personal</h4>
+
+                                <div class="mt-4 pt-2">
+                                    <p class="mb-2 f-18">Features</p>
+
+                                    <p class="mb-2">
+                                        <i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2">
+                                        </i><b>24/7</b> gym accessibility
+                                    </p>
+                                    <p class="mb-2">
+                                        <i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2"></i><b> Global
+                                        </b>
+                                        membership
+                                    </p>
+                                    <p class="mb-2">
+                                        <i class="mdi mdi-close-circle text-danger f-18 mr-2"></i><b>
+                                            24x7</b>
+                                        Support
+                                    </p>
+                                    <p class="mb-2">
+                                        <i class="mdi mdi-close-circle text-danger f-18 mr-2"></i><b>
+                                            User-friendly
+                                        </b>
+                                        mobile app available for download
+
+                                    </p>
+                                    <p class="mb-2">
+                                        <i class="mdi mdi-close-circle text-danger f-18 mr-2"></i><b>
+                                            Family
+                                        </b>
+                                        membership
+                                    </p>
+                                </div>
+
+
+
+                                <div class="pricing-plan mt-4 pt-2">
+                                    <h4 class="text-muted">
+                                        <s> $19.99</s>
+                                        <span class="plan pl-3 text-dark">$18.99 </span>
+                                    </h4>
+                                    <p class="text-muted mb-0">Per Month</p>
+                                </div>
+
+                                <div class="mt-4 pt-3">
+                                    <a href="" class="btn btn-primary btn-rounded">Purchase Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="pricing-box mt-4">
+                                <i class="mdi mdi-account-multiple-plus h1"></i>
+                                <h4 class="f-20">Ultimate</h4>
+
+                                <div class="mt-4 pt-2">
+                                    <p class="mb-2 f-18">Features</p>
+
+                                    <p class="mb-2">
+                                        <i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2">
+                                        </i><b>24/7</b> gym accessibility
+                                    </p>
+                                    <p class="mb-2">
+                                        <i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2"></i><b> Global
+                                        </b>
+                                        membership
+                                    </p>
+                                    <p class="mb-2">
+                                        <i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2"></i><b>
+                                            24x7</b>
+                                        Support
+                                    </p>
+                                    <p class="mb-2">
+                                        <i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2"></i><b>
+                                            User-friendly
+                                        </b>
+                                        mobile app available for download
+
+                                    </p>
+                                    <p class="mb-2">
+                                        <i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2"></i><b>
+                                            Family
+                                        </b>
+                                        membership
+                                    </p>
+                                </div>
+
+
+
+                                <div class="pricing-plan mt-4 pt-2">
+                                    <h4 class="text-muted">
+                                        <s> $29.99</s>
+                                        <span class="plan pl-3 text-dark">$28.99 </span>
+                                    </h4>
+                                    <p class="text-muted mb-0">Per Month</p>
+                                </div>
+
+                                <div class="mt-4 pt-3">
+                                    <a href="" class="btn btn-primary btn-rounded">Purchase Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr />
+            <section class="section-3 font-Montserrat">
+                <div class="table-responsive">
+                    <div class="title-div">
+                        <h1 class="title-heading mt-4">Compare Plans</h1>
+                        <p class="text-muted f-17 mt-3">
+                            Don’t Buy from us Unless you’re not Ready for Success
+                        </p>
+                    </div>
+
+                    <table class="table">
+                        <thead class="table-head">
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col"><strong>Starter</strong></th>
+                                <th scope="col"><strong>Personal</strong></th>
+                                <th scope="col"><strong>Ultimate</strong></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">24x7 gym accessibility</th>
+                                <td><i class="" style="margin-left: 3vw;">Yes</i></td>
+                                <td><i class="" style="margin-left: 3vw;">Yes</i></td>
+                                <td><i class="" style="margin-left: 3vw;">Yes</i></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Global membership</th>
+                                <td><i class="" style="margin-left: 3vw;">No</i></td>
+                                <td><i class="" style="margin-left: 3vw;">Yes</i></td>
+                                <td><i class="" style="margin-left: 3vw ;">Yes</i></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">24x7 Support</th>
+                                <td><i class="" style="margin-left: 3vw;">No</i></td>
+                                <td><i class="" style="margin-left: 3vw;">No</i></td>
+                                <td><i class="" style="margin-left: 3vw;">Yes</i></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">User Friendly Mobile App</th>
+                                <td><i class="" style="margin-left: 3vw;">No</i></td>
+                                <td><i class="" style="margin-left: 3vw;">No</i></td>
+                                <td><i class="" style="margin-left: 3vw;">Yes</i></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Family membership</th>
+                                <td><i class="" style="margin-left: 3vw;">No</i></td>
+                                <td><i class="" style="margin-left: 3vw;">No</i></td>
+                                <td><i class="" style="margin-left: 3vw;">Yes</i></td>
+                            </tr>
+                    
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <hr />
+        <footer>
+            <div class="footer-div justify-content align-items flex font-Dosis font-bold">
+                copyright &copy; 2023 | The Fitness Club | All Right Reserved
+            </div>
+        </footer>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
