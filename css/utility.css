@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat&family=Ubuntu&display=swap');
+
+.justify-content{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.mx-auto{
+    margin: auto;
+}
+
+.m-1{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.p-1{
+    padding: 0 3vw;
+}
+
+/* Utility Classes For Fonts */
+.font-bold{
+    font-weight: bolder;
+}
+.font-Dosis{
+    font-family: 'Dosis', sans-serif;
+}
+.font-Montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+.font-Ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+}
